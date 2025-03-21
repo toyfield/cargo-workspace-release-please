@@ -1,4 +1,4 @@
 fn main() {
     let num = 10;
-    println!("{num} plus one is {}!", add_one::add_one(num));
+    println!("{num} + 1 is {}!", add_one::add_one(num));
 }
