@@ -11,3 +11,5 @@ The plugin `cargo-workspace` seems will skip some file updates, so we need to ma
 ```
 
 If you add `"plugins": ["cargo-workspace"],` to the `config.json` , release-please will skip the `Cargo.lock`'s member updates and `manifest.json`'s version updates.
+
+> if you config release-please `changelog-type` to `github` you need push a version tag because the `release-please` will use the tag to as release api's previous tag.
