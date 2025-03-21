@@ -4,15 +4,15 @@ version = 4
 
 [[package]]
 name = "add_one"
-version = "0.1.0"
+version = "0.1.1"
 
 [[package]]
 name = "adder"
-version = "0.1.0"
+version = "0.1.1"
 dependencies = [
  "add_one",
 ]
 
 [[package]]
 name = "cargo-workspace-example"
-version = "0.1.0"
+version = "0.1.1"
