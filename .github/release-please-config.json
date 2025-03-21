@@ -9,6 +9,7 @@
     }
   },
   "pull-request-header": ":robot: I have created a release",
+  "plugins": ["cargo-workspace"],
   "changelog-type": "github",
   "release-type": "rust",
   "changelog-sections": [
